@@ -1,0 +1,38 @@
+/* Police générale */
+body {
+  font-family: 'Poppins', sans-serif;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  line-height: 1.7;
+  color: #222;
+}
+
+/* Image principale */
+.small {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Bloc Zaïre-Emery */
+.zaire-block {
+  display: flex;           /* image à gauche / texte à droite */
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.zaire-img {
+  width: 300px;
+  border-radius: 12px;
+}
+
+.zaire-texte {
+  flex: 1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
